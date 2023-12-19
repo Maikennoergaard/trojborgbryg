@@ -359,7 +359,6 @@ nav{
     visibility: hidden;
     position: fixed;
     top: 0;
-    right: 200 0;
     width: 40%; /*Hvor meget burgermenuen fylder i udslået version */
     height: 100%;
     background-color: var(--background); /*Burgermenu baggrundsfarve*/
@@ -554,7 +553,7 @@ h2{
     .menu{
         display: grid;
         grid-template-columns: 70% 20% 10%;
-        grid-template-rows: 16;
+        grid-row: 16;
         max-width: 70%;
         margin-bottom: 40px;
         row-gap: 20px;
@@ -584,7 +583,7 @@ h2{
 
     .beertaste{
         font-variation-settings: "slnt" -12, "wdth" 100, "wght" 100;
-        font-size: 0,8em;
+        font-size: 0.8em;
     }
 
     .pris{
@@ -2660,25 +2659,4 @@ h2{
         }
     }
 
-
-    /******* MEDIA QUERY *******/
-    /******** Telefon  ********/
-    @media screen and (max-width: 767px) {
-        
-    }
-
-    /******** Tablet  ********/
-    @media screen and (min-width: 768px) and (max-width: 1023px){
-        
-    }
-
-    /******** Laptop  ********/
-    @media screen and (min-width: 1024px) and (max-width: 1279px) {
-        
-    }
-
-    /******** Større computer  ********/
-    @media screen and (min-width: 1280px) {
-    
-    }
 /* slut */
